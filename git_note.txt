@@ -1,0 +1,18 @@
+About Git
+
+git init=> initialize the git
+git status=> watch the new file/foler or new changes
+git add . =>add all new changes or new file/folder to modified state
+git commit -m "name"=> create new commit
+git log --oneline=> show all created commits
+git log --oneline -n 3=> show only first 3 commits
+git checkout (commit's id) => go to that related commit's id
+git checkout (branch's name) => go to that related branch's name
+git checkout -b (branch's name) => create new branch and go to that branch
+git branch (branch's name) => create new branch
+git branch -a => show all branches
+git clean -f => delete only new incoming file before modified state
+git clean -fd => delete new file and folder before modified state
+git reset --hard (commit's id) => delete commits before that commit's id(excluding)
+git branch -d (branch's name) => delete that branch
+
